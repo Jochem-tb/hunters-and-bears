@@ -1,0 +1,122 @@
+############################
+# OS / SYSTEM
+############################
+.DS_Store
+Thumbs.db
+desktop.ini
+
+############################
+# GIT
+############################
+*.orig
+
+############################
+# GODOT ENGINE
+############################
+# Godot metadata
+.godot/
+.import/
+export.cfg
+export_presets.cfg
+export_credentials.cfg
+
+# Asset pipeline caches
+*.translation
+*.import
+*.converted
+*.uid
+
+# Godot editor-specific temporary files
+.icon.png
+.editor_settings-3.tres
+.editor_settings-4.tres
+
+############################
+# GODOT - C# / .NET
+############################
+# Godot C# intermediate/build output
+mono_crash.*.json
+data_*/
+.mono/
+.mono_temp/
+.godot/mono/
+.godot/mono_temp/
+
+# Godot .NET build artifacts
+**/obj/
+**/bin/
+
+# Godot-generated bindings
+*.gdextension
+*.gen.cs
+*.generated.cs
+
+############################
+# DOTNET / C#
+############################
+# Build and publish outputs
+bin/
+obj/
+out/
+TestResults/
+*.log
+
+# User secrets / token caches
+.secrets/
+*.user
+*.suo
+
+# .NET tool artifacts
+.nuget/
+*.nupkg
+
+# Global lock files
+project.lock.json
+project.fragment.lock.json
+
+# Rider
+.idea/
+*.iml
+
+# Visual Studio
+.vs/
+*.dbmdl
+*.dbproj.schemaview
+Generated_Code/
+TestResults/
+*.cache
+*.pdb
+*.mdb
+*.userprefs
+
+# Visual Studio Code
+.vscode/
+.history/
+
+############################
+# OTHER LANGUAGES / BUILD TOOLS
+############################
+# Python (if any tools/scripts exist)
+__pycache__/
+*.pyc
+
+# Node (if any tooling exists)
+node_modules/
+npm-debug.log
+
+############################
+# PROJECT-SPECIFIC
+############################
+# Build scripts temp
+/build/
+temp/
+cache/
+
+# Custom configs that contain secrets
+*.local.json
+*.dev.json
+
+############################
+# GITHUB
+############################
+.github
