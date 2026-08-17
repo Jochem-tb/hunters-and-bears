@@ -1,0 +1,5 @@
+[gd_scene format=3 uid="uid://dcxmwgxj43dwu"]
+
+[node name="MainMenu" type="Node3D"]
+
+[node name="GameBoard" type="Node" parent="."]
