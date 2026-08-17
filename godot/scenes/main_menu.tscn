@@ -1,4 +1,4 @@
-[gd_scene load_steps=5 format=3 uid="uid://bn0ppom4a7tbx"]
+[gd_scene load_steps=5 format=3 uid="uid://qs8lbi7eyc4h"]
 
 [ext_resource type="Script" uid="uid://1mtmtf31wnla" path="res://scripts/GameBoard.cs" id="1_06t4h"]
 [ext_resource type="Script" uid="uid://cdeqlu8vfov67" path="res://scripts/Board.cs" id="2_7vrkn"]
@@ -22,3 +22,10 @@ transform = Transform3D(71, 0, 0, 0, 1, 0, 0, 0, 70, 0.0013065338, 0.0035247803,
 mesh = SubResource("BoxMesh_06t4h")
 skeleton = NodePath("")
 surface_material_override/0 = SubResource("StandardMaterial3D_7vrkn")
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.905517, 0.42431006, 0, -0.42431006, 0.905517, 0, 28.89151, 52.56037)
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.231453, -10.014839, -42.110237)
+light_energy = 10.0

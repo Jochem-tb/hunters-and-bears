@@ -1,0 +1,16 @@
+[gd_scene load_steps=4 format=3 uid="uid://nuy6is0573b8"]
+
+[ext_resource type="Script" uid="uid://blw1kd0tptklw" path="res://scripts/Tiles/EmptyTile.cs" id="1_j13wd"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_w5qwt"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_j13wd"]
+albedo_color = Color(0.16090089, 0.42770767, 0.26631248, 1)
+
+[node name="Tile" type="Node3D"]
+script = ExtResource("1_j13wd")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(9, 0, 0, 0, 1, 0, 0, 0, 9, 0, 1, 0)
+mesh = SubResource("BoxMesh_w5qwt")
+surface_material_override/0 = SubResource("StandardMaterial3D_j13wd")
